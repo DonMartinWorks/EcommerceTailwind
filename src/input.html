@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/dist/output.css">
-</head>
-<body>
-    <h1 class="text-xl">Hola</h1>
-</body>
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+  <body>
+    <header class="flex justify-between bg-stone-800 text-gray-50">
+      <div class="py-navbar-item px-navbar-item">
+        <a href="/">Logo</a>
+      </div>
+
+      <nav>
+        <ul class="grid grid-flow-col">
+          <li>
+            <a href="/src/index.html" class="block py-navbar-item px-navbar-item">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="block py-navbar-item px-navbar-item">Categories</a>
+          </li>
+
+          <li>
+            <a href="#" class="block py-navbar-item px-navbar-item">Products</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav>
+        <ul class="grid grid-flow-col">
+          <li>
+            <a href="/src/cart.html" class="block py-navbar-item px-navbar-item">Cart</a>
+          </li>
+
+          <li>
+            <a href="#" class="block py-navbar-item px-navbar-item">My Account</a>
+            <ul class="hidden">
+                <a href="/src/profile.html" class="block py-navbar-item px-navbar-item">My Profile</a>
+              <li><a href="/src/watchlist.html" class="block py-navbar-item px-navbar-item">Watchlist</a></li>
+              <li><a href="/src/orders.html" class="block py-navbar-item px-navbar-item">My Orders</a></li>
+              <li><a href="/src/logout.html" class="block py-navbar-item px-navbar-item">Logout</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="/src/login.html" class="block py-navbar-item px-navbar-item">Login</a>
+          </li>
+
+          <li>
+            <a href="/src/signup.html" class="block py-navbar-item px-navbar-item">Sign up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </body>
 </html>

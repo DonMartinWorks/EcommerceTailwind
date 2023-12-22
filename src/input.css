@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/** Estilo estatico */
+@layer base {
+    .py-navbar-item {
+        @apply py-3
+    }
+    .px-navbar-item {
+        @apply px-4
+    }
+}
