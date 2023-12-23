@@ -5,9 +5,9 @@
 /** Estilo estatico */
 @layer base {
     .py-navbar-item {
-        @apply py-3
+        @apply py-4
     }
     .px-navbar-item {
-        @apply px-4
+        @apply px-3
     }
 }
